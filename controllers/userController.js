@@ -56,3 +56,38 @@ exports.login = async(req, res) => {
         res.status(400).send('password is wrong!');
     }
 }
+
+exports.modifier = async(req, res) => {
+    if (!req.body){
+        return res.status(400).send({message:'Data to update cannot be empty'})
+    }
+
+    const id=req.params.id;
+    User.findByIdAndUpdate(id, req.body,{useFindAndModify:false}).select('-passwordHash')
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'User not found'});
+        }
+        else{
+            res.send(result);
+        }
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+}
+
+exports.supprimer = async(req, res) => {
+    User.findByIdAndDelete(req.params.id).select('-passwordHash')
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'User not found'});
+        }
+        else{
+            res.send({message:'user was deleted succesfully'});
+        }
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+};
