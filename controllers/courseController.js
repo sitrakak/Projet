@@ -57,11 +57,6 @@ exports.createCourse = async(req, res) => {
     const level = await Level.findById(req.body.level);
     if (!level) return res.status(400).send('Invalid level');
 
-    /*const file = req.file;
-    if (!file) return res.status(400).send('No image in the request');
-
-    const fileName = file.filename;
-    const basePath = `${req.protocol}://${req.get('host')}/public/uploads/`; */
 
     const files = req.files;
     let videosPaths = [];
