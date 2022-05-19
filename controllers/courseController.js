@@ -7,6 +7,7 @@ const multer = require('multer');
 
 const FILE_TYPE_MAP = {
     'video/mp4': 'mp4',
+    'video/x-msvideo' : 'avi',
 };
 
 
