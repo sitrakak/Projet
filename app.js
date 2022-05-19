@@ -23,10 +23,14 @@ app.use(errorHandler);
 
 //Routes
 const usersRoutes = require('./routes/userRoute');
+const levelsRoutes = require('./routes/levelRoute');
+const coursesRoutes = require('./routes/courseRoute');
 
 const api = process.env.API_URL;
 
 app.use(`${api}/users`, usersRoutes);
+app.use(`${api}/levels`, levelsRoutes);
+app.use(`${api}/courses`, coursesRoutes);
 
 //Database
 mongoose.connect(process.env.CONNECTION_STRING, {
