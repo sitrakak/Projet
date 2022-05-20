@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Sitraka\.gradle\caches\transforms-3\a911bf5df232e3fd12bbd44240a4fea2\transformed\material-1.6.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Sitraka\.gradle\caches\transforms-3\aa44eb9e8d37a3439d636831a2be5455\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Sitraka\.gradle\caches\transforms-3\914116008979e77bc79da871871e9f31\transformed\appcompat-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Sitraka\.gradle\caches\transforms-3\db25af9b48bd820a084befed6ab66f1a\transformed\volley-1.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sitraka\.gradle\caches\transforms-3\8e8004f658ac2a7f8f9d847c6ccbed3f\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sitraka\.gradle\caches\transforms-3\f3644ad778acb0eb375e8afe4ed552de\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.2.4] C:\Users\Sitraka\.gradle\caches\transforms-3\c1fa90ab040f7d358c69f633e16e9752\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
@@ -43,25 +44,29 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sitraka\.gradle\
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sitraka\.gradle\caches\transforms-3\23bc2eaa3d335b525ba2ecfef837b657\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Sitraka\.gradle\caches\transforms-3\58d3fb1b78397bc15eea1568e0b97297\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Sitraka\.gradle\caches\transforms-3\75868ec7d8db0714374451122b3b1963\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
-		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
-		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:5:5-39:19
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Sitraka\.gradle\caches\transforms-3\a911bf5df232e3fd12bbd44240a4fea2\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.0] C:\Users\Sitraka\.gradle\caches\transforms-3\a911bf5df232e3fd12bbd44240a4fea2\transformed\material-1.6.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Sitraka\.gradle\caches\transforms-3\aa44eb9e8d37a3439d636831a2be5455\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -112,6 +117,12 @@ ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:21:9-29:
 		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
 		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:22:13-42
+activity#com.example.projet.view.User
+ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml:31:13-38
 uses-sdk
 INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\M1\Mr Rojo\projet\Projet\app\src\main\AndroidManifest.xml
@@ -122,6 +133,8 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Sitraka\
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\Sitraka\.gradle\caches\transforms-3\aa44eb9e8d37a3439d636831a2be5455\transformed\constraintlayout-2.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Sitraka\.gradle\caches\transforms-3\914116008979e77bc79da871871e9f31\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.1] C:\Users\Sitraka\.gradle\caches\transforms-3\914116008979e77bc79da871871e9f31\transformed\appcompat-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Sitraka\.gradle\caches\transforms-3\db25af9b48bd820a084befed6ab66f1a\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.1] C:\Users\Sitraka\.gradle\caches\transforms-3\db25af9b48bd820a084befed6ab66f1a\transformed\volley-1.2.1\AndroidManifest.xml:5:5-43
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sitraka\.gradle\caches\transforms-3\8e8004f658ac2a7f8f9d847c6ccbed3f\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sitraka\.gradle\caches\transforms-3\8e8004f658ac2a7f8f9d847c6ccbed3f\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Sitraka\.gradle\caches\transforms-3\f3644ad778acb0eb375e8afe4ed552de\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
