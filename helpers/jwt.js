@@ -10,10 +10,13 @@ function authJwt() {
     }).unless({
         path: [
             `${api}/users/login`,
-            `${api}/users/register`
+            `${api}/users/register`,
+            {url:/\/api\/v1\/courses(.*)/,
+            methods : ['GET', 'OPTIONS']}
         ]
     })
 }
+
 
 async function isRevoked(req, payload, done) {
     if (!payload.isAdmin) {
