@@ -4,12 +4,18 @@ const router = express.Router();
 const mongoose = require('mongoose');
 
 exports.getLevel = async(req, res) => {
-    const levelList = await Level.find();
-
-    if (!levelList) {
-        res.status(500).json({ success: false })
-    }
-    res.status(200).send(levelList);
+    Level.find()
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'no level found'});
+        }
+        else{
+            res.status(200).send({data: result});
+        }
+    })
+    .catch((err) => {
+        res.sendStatus(404);
+    });
 }
 
 exports.getLevelById = async(req, res) => {

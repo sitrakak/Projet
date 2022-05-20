@@ -3,12 +3,18 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
 exports.getUsers = async(req, res) => {
-    const userList = await User.find().select('-passwordHash');
-
-    if (!userList) {
-        res.status(500).json({ success: false })
-    }
-    res.send(userList);
+    User.find().select('-passwordHash')
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'no user found'});
+        }
+        else{
+            res.status(200).send({data: result});
+        }
+    })
+    .catch((err) => {
+        res.sendStatus(404);
+    });
 }
 
 exports.getUsersById = async(req, res) => {
@@ -51,7 +57,7 @@ exports.login = async(req, res) => {
             secret, { expiresIn: '1d' }
         )
 
-        res.status(200).send({ user: user.email, token: token }) //
+        res.status(200).send({ user: user.email, token: token, id: user.id, admin: user.isAdmin}) //
     } else {
         res.status(400).send('password is wrong!');
     }

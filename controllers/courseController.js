@@ -37,12 +37,18 @@ exports.getCourse = async(req, res) => {
         filter = { level: req.query.levels.split(',') };
     }
 
-    const courseList = await Course.find(filter).populate('level');
-
-    if (!courseList) {
-        res.status(500).json({ success: false })
-    }
-    res.send(courseList);
+    Course.find(filter).populate('level')
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'no course found'});
+        }
+        else{
+            res.status(200).send({data: result});
+        }
+    })
+    .catch((err) => {
+        res.sendStatus(404);
+    });
 }
 
 exports.getCourseById = async(req, res) => {
