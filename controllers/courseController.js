@@ -90,3 +90,24 @@ exports.createCourse = async(req, res) => {
 
     res.send(course);
 }
+
+exports.recherche = (req, res) => {
+    let description = req.body.description;
+    let query = {
+      "$or": [{"description": {"$regex": description, "$options": "i"}}]
+    };
+  
+    Course.find(query).limit(6)
+    .then(result => {
+        if (!result){
+            return res.status(404).send({message:'no course found'});
+        }
+        else{
+            res.status(200).send({data: result});
+        }
+    })
+    .catch((err) => {
+        res.sendStatus(404);
+    });
+  
+  };

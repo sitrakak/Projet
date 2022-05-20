@@ -8,7 +8,6 @@ router.post('/register', userController.register)
 router.post('/login', userController.login);
 router.put('/:id', userController.modifier);
 router.delete('/:id', userController.supprimer);
-router.get('/search', userController.recherche);
 
 
 module.exports = router;

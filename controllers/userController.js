@@ -97,27 +97,3 @@ exports.supprimer = async(req, res) => {
         res.sendStatus(404);
     });
 };
-
-exports.recherche = (req, res) => {
-    let name = req.body.name;
-    let query = {
-      "$or": [{"name": {"$regex": name, "$options": "i"}}]
-    };
-    let output = [];
-  
-    User.find(query).limit(6).then( usrs => {
-        if(usrs && usrs.length && usrs.length > 0) {
-            usrs.forEach(user => {
-              let obj = {
-                  id: user.id,
-                  name: user.name
-              };
-              output.push(obj);
-            });
-        }
-        res.json(output);
-    }).catch(err => {
-      res.send(err);
-    });
-  
-  };
