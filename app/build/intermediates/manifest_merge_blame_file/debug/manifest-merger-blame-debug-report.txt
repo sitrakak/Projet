@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projet"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:4:5-66
+11-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:5:5-39:19
+14        android:allowBackup="true"
+14-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:6:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:8:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.Projet" >
+23-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:11:9-44
+24        <activity
+24-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:12:9-20:20
+25            android:name="com.example.projet.view.Login"
+25-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:13:13-39
+26            android:exported="true" >
+26-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:14:13-36
+27            <intent-filter>
+27-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:15:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:17-69
+28-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:17-77
+30-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:21:9-29:20
+34            android:name="com.example.projet.view.Register"
+34-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:22:13-42
+35            android:exported="true" >
+35-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:23:13-36
+36            <intent-filter>
+36-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:15:13-19:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:17-69
+37-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:17-77
+39-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:30:9-38:20
+43            android:name="com.example.projet.view.User"
+43-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:31:13-38
+44            android:exported="true" >
+44-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:32:13-36
+45            <intent-filter>
+45-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:15:13-19:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:17-69
+46-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:16:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:17-77
+48-->E:\testAndroid\AndroidProject\app\src\main\AndroidManifest.xml:18:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+54            android:authorities="com.example.projet.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

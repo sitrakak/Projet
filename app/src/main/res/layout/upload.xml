@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.User">
+
+    <TextView
+        android:id="@+id/texte"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Upload your videos"
+        android:textAlignment="center"
+        android:textColor="#000" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="397dp"
+        android:layout_height="57dp"
+        android:layout_below="@+id/texte"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="14dp"
+        android:hint="Video title" />
+
+    <EditText
+        android:id="@+id/Rdescription"
+        android:layout_width="382dp"
+        android:layout_height="183dp"
+        android:layout_below="@+id/description"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="13dp"
+        android:hint="Add description" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_below="@+id/Rdescription"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="1dp" />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/button"
+        android:text="upload"
+        android:textColor="#FFFF" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/button"
+        android:text="save"
+        android:textColor="#FFFF" />
+
+
+</RelativeLayout>
