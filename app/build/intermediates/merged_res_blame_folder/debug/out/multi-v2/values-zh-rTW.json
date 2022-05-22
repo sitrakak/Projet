@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.projet.app-mergeDebugResources-23:/values-zh-rTW/values-zh-rTW.xml",
+            "outputFile": "com.example.projet.app-mergeDebugResources-24:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
                     "source": "C:\\Users\\USER\\.gradle\\caches\\transforms-3\\1217d3aa52fa78bda9a0244b3a55003a\\transformed\\material-1.6.0\\res\\values-zh-rTW\\values-zh-rTW.xml",

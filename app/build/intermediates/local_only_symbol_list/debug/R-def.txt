@@ -1,5 +1,9 @@
 R_DEF: Internal format may change without notice
 local
+array com_google_android_gms_fonts_certs
+array com_google_android_gms_fonts_certs_dev
+array com_google_android_gms_fonts_certs_prod
+array preloaded_fonts
 color black
 color purple_200
 color purple_500
@@ -10,6 +14,7 @@ color toolbarEnd
 color toolbarStart
 color white
 drawable background
+drawable bottom_card
 drawable button
 drawable course
 drawable edit_text_bg
@@ -20,9 +25,16 @@ drawable ic_launcher_foreground
 drawable icone_google
 drawable log_apk
 drawable login_bg
+drawable profile
+drawable settings
+drawable splash_bg
 drawable toolbar_header
 drawable vie_bg
+font atomic_age
+font bad_script
+font boogaloo
 font capriola
+font press_start_2p
 id Connexion
 id Inscription
 id button
@@ -36,6 +48,7 @@ id mdpLog
 id menu
 id name
 id phone
+id splash
 id textView
 id textView1
 id textView3
@@ -46,6 +59,7 @@ id videoView6
 id videoView7
 id videoView8
 id videoView9
+layout activity_splashscreen
 layout cours
 layout dashboard
 layout login

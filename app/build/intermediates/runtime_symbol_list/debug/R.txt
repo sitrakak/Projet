@@ -62,6 +62,10 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001c
 int animator mtrl_fab_show_motion_spec 0x7f02001d
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f02001e
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f02001f
+int array com_google_android_gms_fonts_certs 0x7f140000
+int array com_google_android_gms_fonts_certs_dev 0x7f140001
+int array com_google_android_gms_fonts_certs_prod 0x7f140002
+int array preloaded_fonts 0x7f140003
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr actionBarDivider 0x7f030002
@@ -707,6 +711,22 @@ int attr logo 0x7f030281
 int attr logoAdjustViewBounds 0x7f030282
 int attr logoDescription 0x7f030283
 int attr logoScaleType 0x7f030284
+int attr lottie_autoPlay 0x7f030453
+int attr lottie_cacheComposition 0x7f030454
+int attr lottie_colorFilter 0x7f030455
+int attr lottie_enableMergePathsForKitKatAndAbove 0x7f030456
+int attr lottie_fallbackRes 0x7f030457
+int attr lottie_fileName 0x7f030458
+int attr lottie_imageAssetsFolder 0x7f030459
+int attr lottie_loop 0x7f03045a
+int attr lottie_progress 0x7f03045b
+int attr lottie_rawRes 0x7f03045c
+int attr lottie_renderMode 0x7f03045d
+int attr lottie_repeatCount 0x7f03045e
+int attr lottie_repeatMode 0x7f03045f
+int attr lottie_scale 0x7f030460
+int attr lottie_speed 0x7f030461
+int attr lottie_url 0x7f030462
 int attr marginHorizontal 0x7f030285
 int attr marginLeftSystemWindowInsets 0x7f030286
 int attr marginRightSystemWindowInsets 0x7f030287
@@ -2446,6 +2466,7 @@ int drawable abc_vector_test 0x7f070055
 int drawable avd_hide_password 0x7f070056
 int drawable avd_show_password 0x7f070057
 int drawable background 0x7f070058
+int drawable bottom_card 0x7f0700a8
 int drawable btn_checkbox_checked_mtrl 0x7f070059
 int drawable btn_checkbox_checked_to_unchecked_mtrl_animation 0x7f07005a
 int drawable btn_checkbox_unchecked_mtrl 0x7f07005b
@@ -2519,13 +2540,20 @@ int drawable notification_template_icon_bg 0x7f070097
 int drawable notification_template_icon_low_bg 0x7f070098
 int drawable notification_tile_bg 0x7f070099
 int drawable notify_panel_notification_icon_bg 0x7f07009a
+int drawable profile 0x7f0700a9
+int drawable settings 0x7f0700aa
+int drawable splash_bg 0x7f0700ab
 int drawable test_custom_background 0x7f07009b
 int drawable test_level_drawable 0x7f07009c
 int drawable toolbar_header 0x7f0700a7
 int drawable tooltip_frame_dark 0x7f07009d
 int drawable tooltip_frame_light 0x7f07009e
 int drawable vie_bg 0x7f0700a2
+int font atomic_age 0x7f130001
+int font bad_script 0x7f130002
+int font boogaloo 0x7f130003
 int font capriola 0x7f130000
+int font press_start_2p 0x7f130004
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2615,6 +2643,7 @@ int id auto 0x7f080056
 int id autoComplete 0x7f080057
 int id autoCompleteToEnd 0x7f080058
 int id autoCompleteToStart 0x7f080059
+int id automatic 0x7f080208
 int id barrier 0x7f08005a
 int id baseline 0x7f08005b
 int id beginOnFirstDraw 0x7f08005c
@@ -2745,6 +2774,7 @@ int id group_divider 0x7f0800d8
 int id grouping 0x7f0800d9
 int id groups 0x7f0800da
 int id guideline 0x7f0800db
+int id hardware 0x7f080209
 int id header_title 0x7f0800dc
 int id hideable 0x7f0800dd
 int id home 0x7f0800de
@@ -2782,6 +2812,7 @@ int id line3 0x7f0800fc
 int id linear 0x7f0800fd
 int id listMode 0x7f0800fe
 int id list_item 0x7f0800ff
+int id lottie_layer_name 0x7f08020a
 int id masked 0x7f080100
 int id match_constraint 0x7f080101
 int id match_parent 0x7f080102
@@ -2887,6 +2918,8 @@ int id progress_horizontal 0x7f080164
 int id radio 0x7f080165
 int id ratio 0x7f080166
 int id rectangles 0x7f080167
+int id restart 0x7f08020b
+int id reverse 0x7f08020c
 int id reverseSawtooth 0x7f080168
 int id right 0x7f080169
 int id rightToLeft 0x7f08016a
@@ -2931,9 +2964,11 @@ int id snackbar_action 0x7f080191
 int id snackbar_text 0x7f080192
 int id snap 0x7f080193
 int id snapMargins 0x7f080194
+int id software 0x7f08020d
 int id south 0x7f080195
 int id spacer 0x7f080196
 int id special_effects_controller_view_tag 0x7f080197
+int id splash 0x7f08020e
 int id spline 0x7f080198
 int id split_action_bar 0x7f080199
 int id spread 0x7f08019a
@@ -3129,6 +3164,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_splashscreen 0x7f0b007d
 int layout cours 0x7f0b001c
 int layout custom_dialog 0x7f0b001d
 int layout dashboard 0x7f0b007c
@@ -5668,6 +5704,23 @@ int styleable LinearProgressIndicator_indicatorDirectionLinear 1
 int[] styleable ListPopupWindow { 0x010102ac, 0x010102ad }
 int styleable ListPopupWindow_android_dropDownHorizontalOffset 0
 int styleable ListPopupWindow_android_dropDownVerticalOffset 1
+int[] styleable LottieAnimationView { 0x7f030453, 0x7f030454, 0x7f030455, 0x7f030456, 0x7f030457, 0x7f030458, 0x7f030459, 0x7f03045a, 0x7f03045b, 0x7f03045c, 0x7f03045d, 0x7f03045e, 0x7f03045f, 0x7f030460, 0x7f030461, 0x7f030462 }
+int styleable LottieAnimationView_lottie_autoPlay 0
+int styleable LottieAnimationView_lottie_cacheComposition 1
+int styleable LottieAnimationView_lottie_colorFilter 2
+int styleable LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove 3
+int styleable LottieAnimationView_lottie_fallbackRes 4
+int styleable LottieAnimationView_lottie_fileName 5
+int styleable LottieAnimationView_lottie_imageAssetsFolder 6
+int styleable LottieAnimationView_lottie_loop 7
+int styleable LottieAnimationView_lottie_progress 8
+int styleable LottieAnimationView_lottie_rawRes 9
+int styleable LottieAnimationView_lottie_renderMode 10
+int styleable LottieAnimationView_lottie_repeatCount 11
+int styleable LottieAnimationView_lottie_repeatMode 12
+int styleable LottieAnimationView_lottie_scale 13
+int styleable LottieAnimationView_lottie_speed 14
+int styleable LottieAnimationView_lottie_url 15
 int[] styleable MaterialAlertDialog { 0x7f030042, 0x7f030043, 0x7f030044, 0x7f030045 }
 int styleable MaterialAlertDialog_backgroundInsetBottom 0
 int styleable MaterialAlertDialog_backgroundInsetEnd 1
