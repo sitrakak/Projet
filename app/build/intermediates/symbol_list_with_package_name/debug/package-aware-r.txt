@@ -1772,6 +1772,8 @@ color teal_700
 color test_color
 color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
+color toolbarEnd
+color toolbarStart
 color tooltip_background_dark
 color tooltip_background_light
 color white
@@ -2454,12 +2456,15 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button
+drawable course
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable edit_text_bg
+drawable games
+drawable ic_baseline_menu
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2517,6 +2522,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable test_custom_background
 drawable test_level_drawable
+drawable toolbar_header
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vie_bg
@@ -2530,7 +2536,6 @@ id FUNCTION
 id Inscription
 id META
 id NO_DEBUG
-id Rdescription
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2674,7 +2679,6 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
-id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2804,6 +2808,7 @@ id material_value_index
 id matrix
 id mdp
 id mdpLog
+id menu
 id message
 id middle
 id mini
@@ -2869,7 +2874,6 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
-id password
 id password_toggle
 id path
 id pathRelative
@@ -2891,7 +2895,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id save
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2984,7 +2987,6 @@ id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
-id texte
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -2996,6 +2998,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -3011,10 +3014,8 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id upload
 id useLogo
 id vertical_only
-id videoView
 id videoView4
 id videoView5
 id videoView6
@@ -3131,6 +3132,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout cours
 layout custom_dialog
+layout dashboard
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -3147,7 +3149,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout login
-layout login_tab_fragment
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3203,7 +3204,6 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout register
-layout register_tab_fragment
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3224,7 +3224,6 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
-layout upload
 menu example_menu
 menu example_menu2
 mipmap ic_launcher

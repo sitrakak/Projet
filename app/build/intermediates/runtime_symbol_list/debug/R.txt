@@ -1771,6 +1771,8 @@ int color teal_700 0x7f050253
 int color test_color 0x7f050254
 int color test_mtrl_calendar_day 0x7f050255
 int color test_mtrl_calendar_day_selected 0x7f050256
+int color toolbarEnd 0x7f05025a
+int color toolbarStart 0x7f05025b
 int color tooltip_background_dark 0x7f050257
 int color tooltip_background_light 0x7f050258
 int color white 0x7f050259
@@ -2453,12 +2455,15 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f07005e
 int drawable btn_radio_on_mtrl 0x7f07005f
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f070060
 int drawable button 0x7f070061
+int drawable course 0x7f0700a4
 int drawable design_fab_background 0x7f070062
 int drawable design_ic_visibility 0x7f070063
 int drawable design_ic_visibility_off 0x7f070064
 int drawable design_password_eye 0x7f070065
 int drawable design_snackbar_background 0x7f070066
 int drawable edit_text_bg 0x7f07009f
+int drawable games 0x7f0700a5
+int drawable ic_baseline_menu 0x7f0700a6
 int drawable ic_clock_black_24dp 0x7f070067
 int drawable ic_keyboard_black_24dp 0x7f070068
 int drawable ic_launcher_background 0x7f070069
@@ -2516,6 +2521,7 @@ int drawable notification_tile_bg 0x7f070099
 int drawable notify_panel_notification_icon_bg 0x7f07009a
 int drawable test_custom_background 0x7f07009b
 int drawable test_level_drawable 0x7f07009c
+int drawable toolbar_header 0x7f0700a7
 int drawable tooltip_frame_dark 0x7f07009d
 int drawable tooltip_frame_light 0x7f07009e
 int drawable vie_bg 0x7f0700a2
@@ -2529,7 +2535,6 @@ int id FUNCTION 0x7f080005
 int id Inscription 0x7f080006
 int id META 0x7f080007
 int id NO_DEBUG 0x7f080008
-int id Rdescription 0x7f080009
 int id SHIFT 0x7f08000a
 int id SHOW_ALL 0x7f08000b
 int id SHOW_PATH 0x7f08000c
@@ -2673,7 +2678,6 @@ int id decor_content_parent 0x7f080094
 int id default_activity_button 0x7f080095
 int id deltaRelative 0x7f080096
 int id dependency_ordering 0x7f080097
-int id description 0x7f080098
 int id design_bottom_sheet 0x7f080099
 int id design_menu_item_action_area 0x7f08009a
 int id design_menu_item_action_area_stub 0x7f08009b
@@ -2803,6 +2807,7 @@ int id material_value_index 0x7f080115
 int id matrix 0x7f080116
 int id mdp 0x7f080117
 int id mdpLog 0x7f080118
+int id menu 0x7f080206
 int id message 0x7f080119
 int id middle 0x7f08011a
 int id mini 0x7f08011b
@@ -2868,7 +2873,6 @@ int id parent 0x7f080156
 int id parentPanel 0x7f080157
 int id parentRelative 0x7f080158
 int id parent_matrix 0x7f080159
-int id password 0x7f080202
 int id password_toggle 0x7f08015a
 int id path 0x7f08015b
 int id pathRelative 0x7f08015c
@@ -2890,7 +2894,6 @@ int id right_icon 0x7f08016b
 int id right_side 0x7f08016c
 int id rounded 0x7f08016d
 int id row_index_key 0x7f08016e
-int id save 0x7f08016f
 int id save_non_transition_alpha 0x7f080170
 int id save_overlay_view 0x7f080171
 int id sawtooth 0x7f080172
@@ -2983,7 +2986,6 @@ int id textView3 0x7f080204
 int id text_input_end_icon 0x7f0801c8
 int id text_input_error_icon 0x7f0801c9
 int id text_input_start_icon 0x7f0801ca
-int id texte 0x7f0801cb
 int id textinput_counter 0x7f0801cc
 int id textinput_error 0x7f0801cd
 int id textinput_helper_text 0x7f0801ce
@@ -2995,6 +2997,7 @@ int id title 0x7f0801d3
 int id titleDividerNoCustom 0x7f0801d4
 int id title_template 0x7f0801d5
 int id toggle 0x7f0801d6
+int id toolbar 0x7f080207
 int id top 0x7f0801d7
 int id topPanel 0x7f0801d8
 int id touch_outside 0x7f0801d9
@@ -3010,10 +3013,8 @@ int id unchecked 0x7f0801e2
 int id uniform 0x7f0801e3
 int id unlabeled 0x7f0801e4
 int id up 0x7f0801e5
-int id upload 0x7f0801e6
 int id useLogo 0x7f0801e7
 int id vertical_only 0x7f0801e8
-int id videoView 0x7f0801e9
 int id videoView4 0x7f0801ea
 int id videoView5 0x7f0801eb
 int id videoView6 0x7f0801ec
@@ -3130,6 +3131,7 @@ int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout cours 0x7f0b001c
 int layout custom_dialog 0x7f0b001d
+int layout dashboard 0x7f0b007c
 int layout design_bottom_navigation_item 0x7f0b001e
 int layout design_bottom_sheet_dialog 0x7f0b001f
 int layout design_layout_snackbar 0x7f0b0020
@@ -3146,7 +3148,6 @@ int layout design_navigation_menu_item 0x7f0b002a
 int layout design_text_input_end_icon 0x7f0b002b
 int layout design_text_input_start_icon 0x7f0b002c
 int layout login 0x7f0b002d
-int layout login_tab_fragment 0x7f0b007a
 int layout m3_alert_dialog 0x7f0b002e
 int layout m3_alert_dialog_actions 0x7f0b002f
 int layout m3_alert_dialog_title 0x7f0b0030
@@ -3202,7 +3203,6 @@ int layout notification_template_icon_group 0x7f0b0061
 int layout notification_template_part_chronometer 0x7f0b0062
 int layout notification_template_part_time 0x7f0b0063
 int layout register 0x7f0b0064
-int layout register_tab_fragment 0x7f0b007b
 int layout select_dialog_item_material 0x7f0b0065
 int layout select_dialog_multichoice_material 0x7f0b0066
 int layout select_dialog_singlechoice_material 0x7f0b0067
@@ -3223,7 +3223,6 @@ int layout text_view_with_line_height_from_layout 0x7f0b0075
 int layout text_view_with_line_height_from_style 0x7f0b0076
 int layout text_view_with_theme_line_height 0x7f0b0077
 int layout text_view_without_line_height 0x7f0b0078
-int layout upload 0x7f0b0079
 int menu example_menu 0x7f0c0000
 int menu example_menu2 0x7f0c0001
 int mipmap ic_launcher 0x7f0d0000

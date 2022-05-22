@@ -28,7 +28,7 @@ public class User extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cours);
-        setContentView(R.layout.upload);
+        setContentView(R.layout.dashboard);
         this.controle= UserController.getInstance();
         SharedPreferences sh = getSharedPreferences("Autorisation", MODE_PRIVATE);
 
