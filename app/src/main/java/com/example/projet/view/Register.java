@@ -1,9 +1,7 @@
 package com.example.projet.view;
 
-import android.app.VoiceInteractor;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +10,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -22,12 +19,8 @@ import com.android.volley.toolbox.Volley;
 import com.example.projet.R;
 import com.example.projet.controller.UserController;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.Map;
 
 public class Register extends AppCompatActivity {
 
@@ -35,12 +28,11 @@ public class Register extends AppCompatActivity {
     private EditText email;
     private EditText phone;
     private EditText password;
-    private UserController controle;
 
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register);
-        this.controle= UserController.getInstance();
+        UserController controle = UserController.getInstance();
         init();
     }
 
