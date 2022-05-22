@@ -2520,6 +2520,7 @@ drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vie_bg
+font capriola
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2978,7 +2979,8 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
+id textView1
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

@@ -10,14 +10,23 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginBottom="536dp"
+        android:layout_marginBottom="510dp"
         android:scaleType="centerCrop"
         android:src="@drawable/login_bg"
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent=".27"
+        app:layout_constraintHeight_percent=".45"
         app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="139dp"
+        android:layout_marginBottom="12dp"
+        android:src="@drawable/log_apk"
+        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -28,8 +37,38 @@
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHeight_percent=".78"
+        app:layout_constraintHeight_percent=".80"
         app:layout_constraintStart_toStartOf="parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="@font/capriola"
+            android:text="Already have an account?"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/emailLog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/capriola"
+            android:text="Sign in"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/emailLog"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
 
         <EditText
             android:id="@+id/emailLog"
@@ -38,7 +77,8 @@
             app:layout_constraintWidth_percent=".8"
             app:layout_constraintVertical_bias=".3"
             app:layout_constraintHorizontal_bias=".5"
-            android:hint="Mobile Num"
+            android:hint="E-mail Adress"
+            android:fontFamily="@font/capriola"
             android:background="@drawable/edit_text_bg"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
@@ -56,6 +96,7 @@
             android:hint="Password"
             android:paddingLeft="20dp"
             android:paddingTop="10dp"
+            android:fontFamily="@font/capriola"
             android:background="@drawable/edit_text_bg"
             android:paddingBottom="10dp"
             app:layout_constraintVertical_bias="0"
@@ -74,9 +115,9 @@
             android:layout_height="wrap_content"
             app:layout_constraintWidth_percent=".8"
             app:layout_constraintVertical_bias=".7"
-            android:text="Login"
+            android:text="Sign in"
+            android:fontFamily="@font/capriola"
             android:textSize="16sp"
-            android:textStyle="bold"
             android:background="@drawable/button"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -88,33 +129,21 @@
             android:id="@+id/inscrire"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="S'inscrire"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/capriola"
+            android:text="Sign up"
             android:textColor="@color/black"
-            android:textStyle="bold"
             android:textSize="16sp"
-            app:layout_constraintVertical_bias=".2"
-            app:layout_constraintTop_toBottomOf="@+id/Connexion"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintStart_toStartOf="parent"
-            />
-
-
+            app:layout_constraintTop_toBottomOf="@+id/Connexion" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-     <TextView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:text="Welcome to S-learning"
-         android:textColor="@color/white"
-         android:textStyle="bold"
-         android:textSize="16sp"
-         app:layout_constraintVertical_bias=".2"
-         app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintStart_toStartOf="parent"
-         />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

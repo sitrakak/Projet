@@ -16,6 +16,7 @@ drawable icone_google
 drawable log_apk
 drawable login_bg
 drawable vie_bg
+font capriola
 id Connexion
 id Inscription
 id Rdescription
@@ -33,7 +34,8 @@ id password
 id phone
 id save
 id textView
-id textView2
+id textView1
+id textView3
 id texte
 id upload
 id videoView
