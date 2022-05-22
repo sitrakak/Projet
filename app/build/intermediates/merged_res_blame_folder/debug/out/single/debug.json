@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_background.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\background.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -20,24 +20,20 @@
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_button.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\button.xml"
-    },
-    {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_login_bg.jpg.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\login_bg.jpg"
     },
     {
-        "merged": "com.example.projet.app-merged_res-25:/layout_register.xml.flat",
-        "source": "com.example.projet.app-main-27:/layout/register.xml"
-    },
-    {
-        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_vie_bg.xml.flat",
-        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\vie_bg.xml"
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\button.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_icone_google.png.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\icone_google.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable_vie_bg.xml.flat",
+        "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\drawable\\vie_bg.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -66,6 +62,10 @@
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\layout_upload.xml.flat",
         "source": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-main-27:\\layout\\upload.xml"
+    },
+    {
+        "merged": "com.example.projet.app-merged_res-25:/drawable_vie_bg.xml.flat",
+        "source": "com.example.projet.app-main-27:/drawable/vie_bg.xml"
     },
     {
         "merged": "C:\\Users\\USER\\.gradle\\daemon\\7.3.3\\com.example.projet.app-merged_res-25:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
