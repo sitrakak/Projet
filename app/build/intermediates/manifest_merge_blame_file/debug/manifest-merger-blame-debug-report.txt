@@ -6,129 +6,129 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->F:\NOUM\Android\app\src\main\AndroidManifest.xml
+8-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->F:\NOUM\Android\app\src\main\AndroidManifest.xml
+9-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:5:5-67
-11-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:5:22-64
+11-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:7:5-55:19
+13-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:7:5-55:19
 14        android:allowBackup="true"
-14-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:8:9-35
+14-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.7.0] C:\Users\USER\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+15-->[androidx.core:core:1.7.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 16        android:debuggable="true"
 17        android:extractNativeLibs="false"
 18        android:icon="@mipmap/ic_launcher"
-18-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:9:9-43
+18-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:9:9-43
 19        android:label="@string/app_name"
-19-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:10:9-41
+19-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:10:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:11:9-54
+20-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
-21-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:12:9-35
+21-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:12:9-35
 22        android:testOnly="true"
 23        android:theme="@style/Theme.Projet" >
-23-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:13:9-44
+23-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:13:9-44
 24        <activity
-24-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:15:9-22:20
+24-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:15:9-22:20
 25            android:name="com.example.projet.view.Splashscreen"
-25-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:15:19-52
+25-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:15:19-52
 26            android:exported="true" >
-26-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:16:13-36
+26-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:16:13-36
 27            <intent-filter>
-27-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:17:13-21:29
+27-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:17:13-21:29
 28                <action android:name="android.intent.action.MAIN" />
-28-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:17-69
-28-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:25-66
+28-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:17-69
+28-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:25-66
 29
 30                <category android:name="android.intent.category.LAUNCHER" />
-30-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:17-77
-30-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:27-74
+30-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:17-77
+30-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:27-74
 31            </intent-filter>
 32        </activity>
 33        <activity
-33-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:24:9-32:20
+33-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:24:9-32:20
 34            android:name="com.example.projet.view.Login"
-34-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:25:13-39
+34-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:25:13-39
 35            android:exported="true" >
-35-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:26:13-36
+35-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:26:13-36
 36            <intent-filter>
-36-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:17:13-21:29
+36-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:17:13-21:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:17-69
-37-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:25-66
+37-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:17-69
+37-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:17-77
-39-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:27-74
+39-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:17-77
+39-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:33:9-41:20
+42-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:33:9-41:20
 43            android:name="com.example.projet.view.Register"
-43-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:34:13-42
+43-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:34:13-42
 44            android:exported="true" >
-44-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:35:13-36
+44-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:35:13-36
 45            <intent-filter>
-45-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:17:13-21:29
+45-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:17:13-21:29
 46                <action android:name="android.intent.action.MAIN" />
-46-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:17-69
-46-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:25-66
+46-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:17-69
+46-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:25-66
 47
 48                <category android:name="android.intent.category.LAUNCHER" />
-48-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:17-77
-48-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:27-74
+48-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:17-77
+48-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:27-74
 49            </intent-filter>
 50        </activity>
 51        <activity
-51-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:42:9-50:20
+51-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:42:9-50:20
 52            android:name="com.example.projet.view.User"
-52-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:43:13-38
+52-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:43:13-38
 53            android:exported="true" >
-53-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:44:13-36
+53-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:44:13-36
 54            <intent-filter>
-54-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:17:13-21:29
+54-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:17:13-21:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:17-69
-55-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:18:25-66
+55-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:17-69
+55-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:18:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:17-77
-57-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:20:27-74
+57-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:17-77
+57-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:20:27-74
 58            </intent-filter>
 59        </activity>
 60
 61        <meta-data
-61-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:52:9-54:57
+61-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:52:9-54:57
 62            android:name="preloaded_fonts"
-62-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:53:13-43
+62-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:53:13-43
 63            android:resource="@array/preloaded_fonts" />
-63-->F:\NOUM\Android\app\src\main\AndroidManifest.xml:54:13-54
+63-->D:\MEAN Stack\mobile project\FINAL FRONT\Projet\app\src\main\AndroidManifest.xml:54:13-54
 64
 65        <provider
-65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+65-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 66            android:name="androidx.startup.InitializationProvider"
-66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+66-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 67            android:authorities="com.example.projet.androidx-startup"
-67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+67-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 68            android:exported="false" >
-68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+68-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 69            <meta-data
-69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+69-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 71                android:value="androidx.startup" />
-71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\USER\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 72            <meta-data
-72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-73-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+73-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 74                android:value="androidx.startup" />
-74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\USER\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+74-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Nomena RAZAKAMALALA\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 75        </provider>
 76    </application>
 77
